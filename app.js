@@ -32,7 +32,7 @@ function sortearAmigo() {
     } else {
         let friendNumbersRandom = Math.floor(Math.random() * addedFriends.length);
         let winner = document.querySelector('h2');
-        winner.innerHTML = `El ganador es: ${addedFriends[friendNumbersRandom]}`
+        winner.innerHTML = `Tu amigo secreto es: ${addedFriends[friendNumbersRandom]}`
         // console.log(friendNumbersRandom);
         // console.log(addedFriends[friendNumbersRandom]);
         return;
